@@ -1,0 +1,17 @@
+# train.yaml
+
+  # path: D:\1.code\hikonvision\domo\dataset\pics8
+  # train: images/train
+  # val: images/val
+
+  train:
+  - D:\1.code\hikonvision\domo\dataset\pics8\images\train
+
+  val:
+  - D:\1.code\hikonvision\domo\dataset\pics8\images\val
+
+  nc: 3
+  names:
+    0: dischargPort
+    1: collectionPort
+    2: liquidconcrete

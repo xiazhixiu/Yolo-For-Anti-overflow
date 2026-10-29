@@ -1,0 +1,76 @@
+# ==================== Python ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+24.rotate.py
+25.extractNum.ipynb
+Electrical_schematic_diagram.png
+# ==================== 虚拟环境 ====================
+.venv/
+venv/
+env/
+ENV/
+yolo/
+# 若使用 uv / poetry，可补充对应环境目录
+# .pdm-python
+
+# ==================== 环境变量与密钥 ====================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.mp4
+# ==================== 运行时生成数据 ====================
+# 日志
+logs/
+*.log
+train12/
+# 录像与帧缓存
+recordings/
+frames/
+videos/
+
+
+# 模型训练输出（保留曲线与评估图，忽略可重新生成的权重）
+runs/
+train12/weights/*.pt
+train12/weights/*.onnx
+train12/weights/*_openvino_model/
+train12/weights/*_ncnn_model/
+train12/weights/*_torchscript_model/
+
+# ==================== 大文件与工具产物 ====================
+*.exe
+*.msi
+*.dmg
+*.zip
+*.7z
+*.tar.gz
+*.pdf
+
+
+# ==================== 编辑器与 IDE ====================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ==================== 操作系统 ====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==================== 版本控制残留 ====================
+.svn/
+.hg/
+.bzr/
+
+# ==================== Jupyter ====================
+.ipynb_checkpoints/
